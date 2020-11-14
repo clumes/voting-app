@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting App</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/media-queries.css" />
+</head>
+<body>
+    <!-- APP -->
+    <div id="app">
+        <div class="app-overlay"></div>
+        <!-- HEADER -->
+        <header>
+            <div class="logo">
+                <img src="images/star.svg">
+                <h1>US ELECTIONS</h1>
+            </div>
+        </header>
+        <!-- MAIN -->
+        <main>
+            <div class="cards">
+                <div class="card">
+                    <img class="card-image" src="images/trump.jpg">
+                    <div class="card-info">
+                        <div class="candidate-votes">
+                            <span class="votes-number-trump">195</span>
+                            <span class="votes-text">VOTES</span>
+                        </div>
+                        <div class="line"></div>
+                        <div class="candidate-info">
+                            <span class="candidate-name">Donald Trump</span>
+                            <span class="candidate-party">Republican Party</span>
+                        </div>
+                    </div>
+                    <button class="card-btn btn-trump">VOTE</button>
+                </div>
+                <div class="card">
+                    <img class="card-image" src="images/biden.jpg">
+                    <div class="card-info">
+                        <div class="candidate-votes">
+                            <span class="votes-number-biden">180</span>
+                            <span class="votes-text">VOTES</span>
+                        </div>
+                        <div class="line"></div>
+                        <div class="candidate-info">
+                            <span class="candidate-name">Joe Biden</span>
+                            <span class="candidate-party">Democratic Party</span>
+                        </div>
+                    </div>
+                    <button class="card-btn btn-biden">VOTE</button>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
